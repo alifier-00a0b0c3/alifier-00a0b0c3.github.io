@@ -1,0 +1,1490 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>每日大赛爆料黑料-大赛内幕爆料合集_黑料追踪_赛事争议速览</title>
+  <meta name="description" content="每日大赛爆料黑料专题聚合最新赛事争议、内幕爆料与选手黑料追踪。内容覆盖热门大赛现场花絮、评审争议、选手背景挖掘与网友热议，提供多角度爆料线索与事件时间线，适合关注赛事舆论、吃瓜讨论与深度复盘的用户收藏浏览。">
+  <meta name="keywords" content="每日大赛爆料黑料,大赛内幕爆料,赛事黑料追踪,大赛争议合集,爆料速览">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2312111c'/%3E%3Ctext x='50' y='68' font-size='52' font-family='Arial' font-weight='bold' fill='%23f5567b' text-anchor='middle'%3E爆%3C/text%3E%3C/svg%3E">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg: #0f0e17;
+      --surface: #1b1a26;
+      --surface-2: #23202f;
+      --card: #1e1b2b;
+      --border: #302b3f;
+      --text: #eae8f2;
+      --text-soft: #b6b0c9;
+      --text-dim: #7d7692;
+      --accent: #f5567b;
+      --accent-2: #ff8fa3;
+      --accent-glow: rgba(245, 86, 123, 0.18);
+      --gold: #f5c26b;
+      --radius: 18px;
+      --radius-sm: 12px;
+      --shadow: 0 12px 36px rgba(0, 0, 0, 0.45);
+      --shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.3);
+      --max-width: 1200px;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      background-image: radial-gradient(ellipse at 20% 0%, rgba(245, 86, 123, 0.07), transparent 55%),
+                        radial-gradient(ellipse at 80% 30%, rgba(120, 80, 255, 0.06), transparent 50%);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(15, 14, 23, 0.82);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      gap: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 800;
+      font-size: 1.3rem;
+      letter-spacing: 0.5px;
+      flex-shrink: 0;
+    }
+
+    .logo-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent), #a347ff);
+      display: grid;
+      place-items: center;
+      font-size: 1rem;
+      color: #fff;
+      font-weight: 900;
+    }
+
+    .logo span {
+      background: linear-gradient(90deg, #fff, var(--accent-2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+
+    .nav-links a {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 0.88rem;
+      color: var(--text-soft);
+      transition: 0.2s;
+      border: 1px solid transparent;
+    }
+
+    .nav-links a:hover {
+      color: #fff;
+      background: var(--accent-glow);
+      border-color: rgba(245, 86, 123, 0.35);
+    }
+
+    .header-cta {
+      font-size: 0.85rem;
+      background: var(--accent);
+      color: #fff;
+      padding: 7px 16px;
+      border-radius: 999px;
+      font-weight: 600;
+      white-space: nowrap;
+      transition: 0.2s;
+      border: none;
+      cursor: pointer;
+    }
+
+    .header-cta:hover {
+      background: #e04168;
+      transform: translateY(-1px);
+    }
+
+    .hero {
+      padding: 54px 0 40px;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 480px;
+      height: 480px;
+      right: -120px;
+      top: -180px;
+      background: radial-gradient(circle, rgba(245, 86, 123, 0.13), transparent 65%);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 0.7fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .hero-label {
+      font-size: 0.78rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent-2);
+      margin-bottom: 12px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hero-label::before {
+      content: "";
+      width: 28px;
+      height: 2px;
+      background: var(--accent);
+    }
+
+    .hero h1 {
+      font-size: clamp(1.9rem, 4vw, 3.1rem);
+      line-height: 1.2;
+      font-weight: 800;
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+    }
+
+    .hero h1 em {
+      font-style: normal;
+      color: var(--accent-2);
+      text-shadow: 0 0 28px rgba(245, 86, 123, 0.4);
+    }
+
+    .hero-desc {
+      color: var(--text-soft);
+      font-size: 1.02rem;
+      max-width: 560px;
+      margin-bottom: 24px;
+    }
+
+    .hero-search {
+      display: flex;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px;
+      max-width: 470px;
+      margin-bottom: 22px;
+      transition: 0.25s;
+    }
+
+    .hero-search:focus-within {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 4px var(--accent-glow);
+    }
+
+    .hero-search input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text);
+      padding: 11px 20px;
+      font-size: 0.95rem;
+      font-family: var(--font);
+    }
+
+    .hero-search input::placeholder {
+      color: var(--text-dim);
+    }
+
+    .hero-search button {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 0 22px;
+      border-radius: 999px;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 0.92rem;
+      transition: 0.2s;
+      font-family: var(--font);
+    }
+
+    .hero-search button:hover {
+      background: #e04168;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .hero-tags a {
+      font-size: 0.8rem;
+      padding: 5px 13px;
+      border-radius: 999px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-soft);
+      transition: 0.2s;
+    }
+
+    .hero-tags a:hover {
+      border-color: var(--accent);
+      color: var(--accent-2);
+      background: var(--accent-glow);
+    }
+
+    .hero-feature {
+      background: linear-gradient(145deg, #241f33, #181523);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 26px 24px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-feature::after {
+      content: "HOT";
+      position: absolute;
+      top: 16px;
+      right: -28px;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.68rem;
+      font-weight: 800;
+      padding: 4px 36px;
+      transform: rotate(38deg);
+      letter-spacing: 1px;
+    }
+
+    .hero-feature h3 {
+      font-size: 0.8rem;
+      color: var(--accent-2);
+      letter-spacing: 1.5px;
+      margin-bottom: 14px;
+      font-weight: 600;
+    }
+
+    .feature-item {
+      display: flex;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px dashed var(--border);
+      align-items: flex-start;
+    }
+
+    .feature-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .feature-rank {
+      width: 22px;
+      height: 22px;
+      border-radius: 7px;
+      background: var(--surface-2);
+      color: var(--accent-2);
+      display: grid;
+      place-items: center;
+      font-size: 0.7rem;
+      font-weight: 800;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .feature-item:nth-child(2) .feature-rank {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .feature-text {
+      font-size: 0.86rem;
+      color: var(--text-soft);
+      line-height: 1.5;
+    }
+
+    .feature-text b {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    section {
+      padding: 48px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    .sec-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 28px;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .sec-head h2 {
+      font-size: clamp(1.25rem, 2.4vw, 1.65rem);
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .sec-head h2::before {
+      content: "";
+      width: 5px;
+      height: 22px;
+      border-radius: 4px;
+      background: linear-gradient(180deg, var(--accent), #a347ff);
+      display: inline-block;
+    }
+
+    .sec-head p {
+      color: var(--text-dim);
+      font-size: 0.85rem;
+      max-width: 400px;
+    }
+
+    .intro-text {
+      color: var(--text-soft);
+      font-size: 0.96rem;
+      max-width: 880px;
+      margin-bottom: 24px;
+    }
+
+    .intro-text p {
+      margin-bottom: 12px;
+    }
+
+    .intro-text strong {
+      color: var(--text);
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 18px;
+      transition: 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(245, 86, 123, 0.45);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .card-cover {
+      height: 110px;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, #2b2136, #1d1729, #2f1d3a);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      color: rgba(245, 86, 123, 0.5);
+      font-weight: 900;
+      letter-spacing: 2px;
+      border: 1px solid var(--border);
+      margin-bottom: 2px;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag {
+      font-size: 0.68rem;
+      padding: 2px 9px;
+      border-radius: 999px;
+      background: rgba(245, 86, 123, 0.12);
+      color: var(--accent-2);
+      border: 1px solid rgba(245, 86, 123, 0.2);
+      white-space: nowrap;
+    }
+
+    .tag.gold {
+      background: rgba(245, 194, 107, 0.1);
+      color: var(--gold);
+      border-color: rgba(245, 194, 107, 0.25);
+    }
+
+    .card h3 {
+      font-size: 1.02rem;
+      font-weight: 700;
+      line-height: 1.4;
+      color: var(--text);
+    }
+
+    .card p {
+      font-size: 0.84rem;
+      color: var(--text-dim);
+      line-height: 1.55;
+      flex: 1;
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      padding-top: 10px;
+      border-top: 1px dashed var(--border);
+    }
+
+    .card-meta .hot {
+      color: var(--accent-2);
+      font-weight: 600;
+    }
+
+    .list-rows {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .row-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+      transition: 0.2s;
+      flex-wrap: wrap;
+    }
+
+    .row-item:hover {
+      border-color: rgba(245, 86, 123, 0.4);
+      background: #23202f;
+    }
+
+    .row-time {
+      font-size: 0.76rem;
+      color: var(--text-dim);
+      min-width: 64px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .row-title {
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--text);
+      flex: 1;
+      min-width: 180px;
+    }
+
+    .row-title span {
+      color: var(--accent-2);
+    }
+
+    .row-badge {
+      font-size: 0.7rem;
+      background: var(--accent-glow);
+      color: var(--accent-2);
+      padding: 3px 10px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 12px;
+    }
+
+    .cat-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 18px 14px;
+      text-align: center;
+      transition: 0.22s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .cat-item:hover {
+      border-color: var(--accent);
+      background: var(--accent-glow);
+      transform: translateY(-3px);
+    }
+
+    .cat-icon {
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+
+    .cat-name {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .cat-count {
+      font-size: 0.7rem;
+      color: var(--text-dim);
+    }
+
+    .deep-dive {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 36px;
+      align-items: start;
+    }
+
+    .deep-main p {
+      color: var(--text-soft);
+      font-size: 0.94rem;
+      margin-bottom: 14px;
+      text-align: justify;
+    }
+
+    .deep-main h3 {
+      font-size: 1.1rem;
+      margin: 22px 0 10px;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .deep-main h3::before {
+      content: "◆";
+      color: var(--accent);
+      font-size: 0.7rem;
+    }
+
+    .deep-side {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 22px;
+      position: sticky;
+      top: 84px;
+    }
+
+    .deep-side h4 {
+      font-size: 0.95rem;
+      margin-bottom: 16px;
+      color: var(--accent-2);
+      letter-spacing: 0.5px;
+    }
+
+    .timeline {
+      list-style: none;
+      position: relative;
+      padding-left: 18px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 4px;
+      top: 6px;
+      bottom: 6px;
+      width: 2px;
+      background: linear-gradient(180deg, var(--accent), transparent);
+    }
+
+    .timeline li {
+      position: relative;
+      padding: 0 0 18px 10px;
+      font-size: 0.85rem;
+      color: var(--text-soft);
+      line-height: 1.55;
+    }
+
+    .timeline li::before {
+      content: "";
+      position: absolute;
+      left: -18px;
+      top: 6px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 3px rgba(245, 86, 123, 0.2);
+    }
+
+    .timeline li b {
+      color: var(--text);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .faq-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 18px 20px;
+      transition: 0.2s;
+    }
+
+    .faq-item:hover {
+      border-color: rgba(245, 86, 123, 0.3);
+    }
+
+    .faq-item h4 {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 8px;
+      display: flex;
+      gap: 8px;
+    }
+
+    .faq-item h4::before {
+      content: "Q";
+      color: var(--accent);
+      font-weight: 900;
+      font-size: 0.8rem;
+      background: var(--accent-glow);
+      width: 20px;
+      height: 20px;
+      display: grid;
+      place-items: center;
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+
+    .faq-item p {
+      font-size: 0.84rem;
+      color: var(--text-dim);
+      line-height: 1.6;
+    }
+
+    .comment-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .comment {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 14px 16px;
+      transition: 0.2s;
+    }
+
+    .comment:hover {
+      background: var(--card);
+    }
+
+    .comment-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .avatar {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #3a2c50, #241d36);
+      display: grid;
+      place-items: center;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--accent-2);
+      flex-shrink: 0;
+      border: 1px solid var(--border);
+    }
+
+    .nick {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .comment-time {
+      font-size: 0.68rem;
+      color: var(--text-dim);
+      margin-left: auto;
+    }
+
+    .comment p {
+      font-size: 0.82rem;
+      color: var(--text-soft);
+      line-height: 1.55;
+    }
+
+    .news-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .news-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 18px 20px;
+      transition: 0.2s;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .news-card:hover {
+      border-color: rgba(245, 86, 123, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .news-date {
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      letter-spacing: 0.5px;
+    }
+
+    .news-card h4 {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.45;
+    }
+
+    .news-card p {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      line-height: 1.55;
+    }
+
+    .site-footer {
+      padding: 44px 0 30px;
+      background: #0b0a12;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr 1fr;
+      gap: 32px;
+      margin-bottom: 30px;
+    }
+
+    .footer-brand .logo {
+      margin-bottom: 12px;
+    }
+
+    .footer-brand p {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      line-height: 1.6;
+      max-width: 280px;
+    }
+
+    .footer-col h5 {
+      font-size: 0.82rem;
+      color: var(--text);
+      margin-bottom: 12px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .footer-col a {
+      display: block;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      padding: 4px 0;
+      transition: 0.2s;
+    }
+
+    .footer-col a:hover {
+      color: var(--accent-2);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+    }
+
+    .footer-bottom span {
+      color: var(--accent-2);
+    }
+
+    .btn-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.82rem;
+      color: var(--accent-2);
+      padding: 6px 16px;
+      border-radius: 999px;
+      border: 1px solid rgba(245, 86, 123, 0.35);
+      transition: 0.2s;
+      background: transparent;
+      cursor: pointer;
+      font-family: var(--font);
+      white-space: nowrap;
+    }
+
+    .btn-more:hover {
+      background: var(--accent-glow);
+      border-color: var(--accent);
+    }
+
+    @media (max-width: 960px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+      .hero-feature {
+        display: none;
+      }
+      .deep-dive {
+        grid-template-columns: 1fr;
+      }
+      .deep-side {
+        position: static;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+      .nav-links {
+        display: none;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .container {
+        padding: 0 16px;
+      }
+      .hero {
+        padding: 34px 0 28px;
+      }
+      .hero h1 {
+        font-size: 1.7rem;
+      }
+      .hero-desc {
+        font-size: 0.9rem;
+      }
+      section {
+        padding: 34px 0;
+      }
+      .card-grid {
+        grid-template-columns: 1fr;
+      }
+      .faq-grid {
+        grid-template-columns: 1fr;
+      }
+      .comment-wrap {
+        grid-template-columns: 1fr;
+      }
+      .news-list {
+        grid-template-columns: 1fr;
+      }
+      .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .row-item {
+        gap: 10px;
+      }
+      .row-title {
+        min-width: 100%;
+        order: 3;
+        font-size: 0.86rem;
+      }
+      .row-time {
+        order: 1;
+      }
+      .row-badge {
+        order: 2;
+        margin-left: auto;
+      }
+      .header-cta {
+        font-size: 0.78rem;
+        padding: 5px 12px;
+      }
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ===== 导航 ===== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo">
+      <span class="logo-mark">爆</span>
+      <span>每日大赛爆料黑料</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/#hero-banner">首页</a></li>
+      <li><a href="/#hot-content">热门推荐</a></li>
+      <li><a href="/#latest-update">最新更新</a></li>
+      <li><a href="/#deep-analysis">深度解析</a></li>
+      <li><a href="/#category-entry">分类入口</a></li>
+      <li><a href="/#faq-section">常见问题</a></li>
+      <li><a href="/#user-comments">评论区</a></li>
+      <li><a href="/#related-news">相关资讯</a></li>
+    </ul>
+    <button class="header-cta" type="button">订阅爆料</button>
+  </div>
+</header>
+
+<!-- ===== 首屏 Banner ===== -->
+<section class="hero" id="hero-banner">
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-label">DAILY CONTEST LEAKS</div>
+      <h1>每日大赛爆料黑料<br><em>赛事内幕 · 争议追踪 · 爆料速览</em></h1>
+      <p class="hero-desc">
+        聚合每日大赛最新爆料、选手黑料与现场争议，追踪评审内幕与舆论走向，提供多角度事件线索与网友热议，适合关注赛事动态与深度吃瓜的用户收藏浏览。
+      </p>
+      <div class="hero-search">
+        <input type="text" placeholder="搜索：大赛爆料 / 黑料 / 争议事件 / 选手内幕" aria-label="搜索爆料内容">
+        <button type="button">搜索</button>
+      </div>
+      <div class="hero-tags">
+        <a href="/#hot-content">今日热门爆料</a>
+        <a href="/#latest-update">最新争议事件</a>
+        <a href="/#deep-analysis">评审内幕追踪</a>
+        <a href="/#category-entry">选手黑料档案</a>
+        <a href="/#related-news">赛事舆论观察</a>
+        <a href="/#user-comments">网友热议榜</a>
+        <a href="/#faq-section">爆料真伪鉴别</a>
+        <a href="/#latest-update">现场花絮速递</a>
+      </div>
+    </div>
+    <aside class="hero-feature">
+      <h3>🔴 实时爆料热榜</h3>
+      <div class="feature-item">
+        <div class="feature-rank">01</div>
+        <div class="feature-text"><b>全国创意大赛评审争议</b> 打分标准遭质疑，多组选手联名申诉</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-rank">02</div>
+        <div class="feature-text"><b>新秀选拔赛内定传闻</b> 匿名爆料指向提前沟通，主办方回应</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-rank">03</div>
+        <div class="feature-text"><b>电竞大赛设备故障风波</b> 关键局重赛引双方粉丝激烈讨论</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-rank">04</div>
+        <div class="feature-text"><b>才艺大赛选手背景深挖</b> 往届参赛记录被翻出，人设受关注</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-rank">05</div>
+        <div class="feature-text"><b>高校联赛现场冲突后续</b> 双方队伍发布说明，网友持续跟进</div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ===== 内容简介 ===== -->
+<section id="intro-section">
+  <div class="container">
+    <div class="sec-head">
+      <h2>关于每日大赛爆料黑料</h2>
+      <p>这个页面在整理什么、适合谁看、能获得什么参考</p>
+    </div>
+    <div class="intro-text">
+      <p><strong>每日大赛爆料黑料</strong> 并不是一个单一事件的记录，而是一个围绕各类大赛现场、评审机制、选手表现与舆论争议的持续追踪型内容专题。很多用户在搜索“每日大赛爆料黑料”时，真正想了解的往往不只是某一条消息，而是想知道：今天有哪些新的爆料出现？哪些争议正在发酵？哪些选手或评审被推到了舆论中心？哪些信息是实锤、哪些只是传闻？这个专题正是围绕这些需求来做信息聚合与线索梳理。</p>
+      <p>页面覆盖的大赛类型包括创意设计大赛、才艺选拔、电竞赛事、高校联赛、短视频大赛、模特大赛等。不同赛事的爆料角度也不同：有的集中在评分标准与评审构成，有的围绕选手背景和过往成绩，有的则关注现场执行与设备故障等突发状况。我们把这些碎片化的内容按专题方式组织起来，方便你快速判断事件脉络，而不是在社交平台的时间线里翻找。</p>
+      <p>适合浏览这个专题的人群包括：正在关注某场大赛的观众、需要复盘赛事争议的参赛选手、对赛事运营机制感兴趣的内容从业者，以及喜欢追踪网络热议话题的普通用户。页面提供了热门爆料速览、最新动态列表、深度解析正文、事件时间线、常见问题答疑和网友评论等多个模块，希望让你在较短时间内建立一个相对完整的认知框架。</p>
+      <p>需要提醒的是，爆料类内容本身具有不确定性。专题中呈现的传闻、匿名投稿与网友讨论，不代表最终事实认定。建议把这里当作一个观察入口和线索索引，结合官方通报、当事方回应和多方信息再做判断。收藏这个页面，可以方便你之后继续跟进事件进展，也适合作为同类大赛争议的对比参考。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 热门推荐 ===== -->
+<section id="hot-content">
+  <div class="container">
+    <div class="sec-head">
+      <h2>热门爆料推荐</h2>
+      <p>近期讨论度较高、信息增量明显的赛事争议与内幕线索</p>
+    </div>
+    <div class="card-grid">
+      <article class="card">
+        <div class="card-cover">评审风波</div>
+        <div class="card-tags"><span class="tag">评审争议</span><span class="tag gold">打分质疑</span><span class="tag">选手申诉</span></div>
+        <h3>创意大赛评分表外泄风波</h3>
+        <p>多组选手发现评分维度权重与赛前说明存在出入，匿名爆料称评审内部意见分歧明显，主办方尚未给出完整解释。</p>
+        <div class="card-meta"><span>热度 98.2万</span><span class="hot">🔥 持续发酵</span></div>
+      </article>
+      <article class="card">
+        <div class="card-cover">内定传闻</div>
+        <div class="card-tags"><span class="tag">选拔赛</span><span class="tag">内定传闻</span><span class="tag gold">匿名投稿</span></div>
+        <h3>新秀选拔赛提前沟通疑云</h3>
+        <p>有匿名账号放出聊天截图，暗示部分选手赛前已获知选题方向。截图真实性尚待核实，但已引发大量讨论。</p>
+        <div class="card-meta"><span>热度 87.5万</span><span class="hot">🔥 待证实</span></div>
+      </article>
+      <article class="card">
+        <div class="card-cover">设备故障</div>
+        <div class="card-tags"><span class="tag">电竞赛事</span><span class="tag">重赛争议</span><span class="tag gold">现场突发</span></div>
+        <h3>关键局设备故障引发重赛</h3>
+        <p>比赛进行到决胜阶段出现外设失灵，裁判组决定重赛，双方粉丝对处理方式看法两极，赛事方发布简短说明。</p>
+        <div class="card-meta"><span>热度 76.3万</span><span class="hot">🔥 热议中</span></div>
+      </article>
+      <article class="card">
+        <div class="card-cover">背景深挖</div>
+        <div class="card-tags"><span class="tag">才艺大赛</span><span class="tag">选手背景</span><span class="tag">人设讨论</span></div>
+        <h3>人气选手往届参赛记录被翻出</h3>
+        <p>网友整理出该选手此前参加同类赛事的成绩与采访内容，部分表述与本次自我介绍存在差异，引发人设讨论。</p>
+        <div class="card-meta"><span>热度 69.8万</span><span class="hot">🔥 讨论上升</span></div>
+      </article>
+      <article class="card">
+        <div class="card-cover">现场冲突</div>
+        <div class="card-tags"><span class="tag">高校联赛</span><span class="tag">队伍冲突</span><span class="tag gold">后续回应</span></div>
+        <h3>高校联赛赛后言语冲突事件</h3>
+        <p>两支队伍在赛后握手环节出现言语摩擦，现场视频片段流传后引发关注，双方领队已分别发布说明。</p>
+        <div class="card-meta"><span>热度 63.1万</span><span class="hot">🔥 持续跟进</span></div>
+      </article>
+      <article class="card">
+        <div class="card-cover">赛制质疑</div>
+        <div class="card-tags"><span class="tag">短视频大赛</span><span class="tag">赛制争议</span><span class="tag">流量倾斜</span></div>
+        <h3>短视频大赛被指流量分配不均</h3>
+        <p>部分参赛者反映推荐位分配与播放数据不匹配，质疑平台在赛程中存在流量倾斜，赛事运营方回应称算法统一。</p>
+        <div class="card-meta"><span>热度 58.6万</span><span class="hot">🔥 有回应</span></div>
+      </article>
+      <article class="card">
+        <div class="card-cover">票数异常</div>
+        <div class="card-tags"><span class="tag">模特大赛</span><span class="tag">投票异常</span><span class="tag gold">数据核查</span></div>
+        <h3>网络投票短时激增引质疑</h3>
+        <p>某选手票数在凌晨时段出现异常增长曲线，技术团队介入核查，赛事方表示将公布异常票处理结果。</p>
+        <div class="card-meta"><span>热度 52.4万</span><span class="hot">🔥 待通报</span></div>
+      </article>
+      <article class="card">
+        <div class="card-cover">导师争议</div>
+        <div class="card-tags"><span class="tag">音乐大赛</span><span class="tag">导师点评</span><span class="tag">剪辑争议</span></div>
+        <h3>导师点评片段剪辑引发误读</h3>
+        <p>节目播出后导师点评被指存在语境缺失，完整版录音流出后舆论出现反转，剪辑伦理成为讨论焦点。</p>
+        <div class="card-meta"><span>热度 47.9万</span><span class="hot">🔥 反转中</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 最新更新 ===== -->
+<section id="latest-update">
+  <div class="container">
+    <div class="sec-head">
+      <h2>最新爆料动态</h2>
+      <p>2026年11月7日前后赛事争议与内幕线索更新速览</p>
+    </div>
+    <div class="list-rows">
+      <div class="row-item">
+        <span class="row-time">11-07 14:20</span>
+        <span class="row-title"><span>创意大赛</span> 评审组长发布个人说明，回应打分标准争议</span>
+        <span class="row-badge">官方回应</span>
+      </div>
+      <div class="row-item">
+        <span class="row-time">11-07 11:05</span>
+        <span class="row-title"><span>新秀选拔</span> 第二段匿名聊天记录流出，涉及选题沟通细节</span>
+        <span class="row-badge">爆料更新</span>
+      </div>
+      <div class="row-item">
+        <span class="row-time">11-06 22:40</span>
+        <span class="row-title"><span>电竞赛事</span> 重赛完整录像公布，裁判组逐帧解释判罚依据</span>
+        <span class="row-badge">录像公布</span>
+      </div>
+      <div class="row-item">
+        <span class="row-time">11-06 18:12</span>
+        <span class="row-title"><span>才艺大赛</span> 人气选手直播回应背景争议，称愿意公开完整履历</span>
+        <span class="row-badge">当事人回应</span>
+      </div>
+      <div class="row-item">
+        <span class="row-time">11-06 09:30</span>
+        <span class="row-title"><span>高校联赛</span> 双方队伍联合声明发布，呼吁粉丝理性讨论</span>
+        <span class="row-badge">联合声明</span>
+      </div>
+      <div class="row-item">
+        <span class="row-time">11-05 20:18</span>
+        <span class="row-title"><span>短视频大赛</span> 运营方公布推荐算法说明文档摘要</span>
+        <span class="row-badge">规则公开</span>
+      </div>
+      <div class="row-item">
+        <span class="row-time">11-05 15:44</span>
+        <span class="row-title"><span>模特大赛</span> 异常票数处理结果公示，涉及票数已做无效处理</span>
+        <span class="row-badge">结果公示</span>
+      </div>
+      <div class="row-item">
+        <span class="row-time">11-05 10:02</span>
+        <span class="row-title"><span>音乐大赛</span> 完整版导师点评录音释出，舆论出现明显转向</span>
+        <span class="row-badge">反转</span>
+      </div>
+      <div class="row-item">
+        <span class="row-time">11-04 21:36</span>
+        <span class="row-title"><span>创意大赛</span> 多组选手联名提交复核申请，主办方确认受理</span>
+        <span class="row-badge">复核受理</span>
+      </div>
+      <div class="row-item">
+        <span class="row-time">11-04 16:50</span>
+        <span class="row-title"><span>新秀选拔</span> 主办方发布首份声明，否认存在赛前内定安排</span>
+        <span class="row-badge">官方声明</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 分类入口 ===== -->
+<section id="category-entry">
+  <div class="container">
+    <div class="sec-head">
+      <h2>爆料分类入口</h2>
+      <p>按赛事类型与争议方向快速定位你关心的内容</p>
+    </div>
+    <div class="category-grid">
+      <a href="/#hot-content" class="cat-item">
+        <span class="cat-icon">🎨</span>
+        <span class="cat-name">创意设计赛</span>
+        <span class="cat-count">评审 / 打分争议</span>
+      </a>
+      <a href="/#hot-content" class="cat-item">
+        <span class="cat-icon">🎤</span>
+        <span class="cat-name">才艺选拔赛</span>
+        <span class="cat-count">背景 / 人设讨论</span>
+      </a>
+      <a href="/#hot-content" class="cat-item">
+        <span class="cat-icon">🎮</span>
+        <span class="cat-name">电竞赛事</span>
+        <span class="cat-count">设备 / 判罚争议</span>
+      </a>
+      <a href="/#hot-content" class="cat-item">
+        <span class="cat-icon">🏫</span>
+        <span class="cat-name">高校联赛</span>
+        <span class="cat-count">现场冲突 / 后续</span>
+      </a>
+      <a href="/#hot-content" class="cat-item">
+        <span class="cat-icon">📱</span>
+        <span class="cat-name">短视频大赛</span>
+        <span class="cat-count">流量 / 赛制质疑</span>
+      </a>
+      <a href="/#hot-content" class="cat-item">
+        <span class="cat-icon">👠</span>
+        <span class="cat-name">模特大赛</span>
+        <span class="cat-count">投票 / 数据异常</span>
+      </a>
+      <a href="/#hot-content" class="cat-item">
+        <span class="cat-icon">🎵</span>
+        <span class="cat-name">音乐大赛</span>
+        <span class="cat-count">剪辑 / 点评争议</span>
+      </a>
+      <a href="/#hot-content" class="cat-item">
+        <span class="cat-icon">🔥</span>
+        <span class="cat-name">综合爆料</span>
+        <span class="cat-count">匿名投稿 / 传闻</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 深度解析 ===== -->
+<section id="deep-analysis">
+  <div class="container">
+    <div class="sec-head">
+      <h2>深度解析：每日大赛爆料黑料的价值与阅读方式</h2>
+      <p>从赛事机制、信息线索到舆论节奏，拆解这个专题的观察角度</p>
+    </div>
+    <div class="deep-dive">
+      <div class="deep-main">
+        <p>“每日大赛爆料黑料”之所以能形成持续搜索需求，与大赛类内容的传播特点密切相关。大赛本身具有竞技性、悬念感和情绪张力，而爆料则进一步放大了这些元素。观众在观看比赛时，往往会对评分、判罚、选手表现产生主观判断；当官方信息与个人感受之间存在落差时，爆料内容就会成为情绪出口和讨论素材。这个专题的价值，不在于制造更多传闻，而在于把分散的线索整理成可阅读、可对比的信息结构。</p>
+
+        <h3>赛事类型决定了爆料的方向</h3>
+        <p>不同类型的比赛，争议点差异很大。创意设计类大赛的爆料多集中在评审构成、评分权重、作品原创性核查等环节；才艺选拔类更关注选手背景、人设一致性和导师点评是否公允；电竞赛事的讨论则往往围绕设备状态、判罚尺度与重赛规则展开。高校联赛由于参与者年轻、社群活跃，现场冲突和赛后言论容易快速扩散。短视频大赛和模特大赛则常涉及流量分配与网络投票的公平性质疑。理解这些差异，能帮助读者更快判断一条爆料是否属于该赛事的常见争议类型，而不是被情绪化标题带着走。</p>
+
+        <h3>爆料内容的可信度分层</h3>
+        <p>浏览每日大赛爆料黑料时，建议对信息做简单分层。第一层是官方通报、赛事方声明、裁判报告与公示结果，这类内容相对可核验；第二层是当事人回应、完整录音录像、聊天记录原件等，需要结合上下文判断；第三层是匿名投稿、截图传闻和二手转述，信息增量可能很高，但不确定性也最大。专题中会尽量标注线索来源类型，但最终判断仍需读者自行完成。把不同层级的信源混在一起讨论，往往是舆论失控的起点。</p>
+
+        <h3>为什么这类内容容易反复发酵</h3>
+        <p>大赛爆料有一个明显特点：事件周期短、讨论密度高。一场比赛从现场争议到网络发酵，可能只需要几个小时；而后续的回应、反转、二次爆料又会不断拉长讨论周期。对于关注者来说，最难的不是获取单条信息，而是跟上节奏。专题页按“最新动态—热门推荐—深度解析—评论反馈”的结构来组织内容，目的就是让读者既能快速扫一眼今天发生了什么，也能停下来看一篇相对完整的分析，理解争议背后的机制问题。</p>
+
+        <h3>适合人群与阅读建议</h3>
+        <p>如果你只是偶尔吃瓜，建议从热门推荐和最新动态入手，先建立事件概况；如果你是参赛选手或赛事从业者，深度解析和常见问题部分可能更有参考价值，尤其是关于评分机制、申诉流程和舆论应对的讨论；如果你在做内容运营或社区观察，用户评论区和相关资讯能提供不少真实语感与传播路径的线索。需要强调的是，爆料内容天然带有立场和情绪，阅读时保持“先看信源、再看结论”的习惯，会比单纯追逐热度更有收获。</p>
+      </div>
+      <aside class="deep-side">
+        <h4>⏱ 近期事件时间线</h4>
+        <ul class="timeline">
+          <li><b>11月4日</b> 创意大赛多组选手提交复核申请，主办方确认受理。</li>
+          <li><b>11月5日</b> 模特大赛异常票数处理结果公示，音乐大赛完整录音释出。</li>
+          <li><b>11月6日</b> 电竞重赛录像公布，才艺选手直播回应背景争议。</li>
+          <li><b>11月7日</b> 评审组长个人说明发布，新秀选拔第二段聊天记录流出。</li>
+          <li><b>持续关注</b> 多起事件的官方最终结论尚未完全落地，专题将持续跟进。</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq-section">
+  <div class="container">
+    <div class="sec-head">
+      <h2>常见问题答疑</h2>
+      <p>围绕爆料内容消费、信息判断与赛事争议的常见疑问</p>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <h4>每日大赛爆料黑料主要覆盖哪些赛事？</h4>
+        <p>目前专题覆盖创意设计大赛、才艺选拔、电竞赛事、高校联赛、短视频大赛、模特大赛和音乐类比赛等。不同赛事的爆料侧重点不同，页面会按赛事类型做分类入口，方便按兴趣浏览。如果你关注的是某一场具体比赛，建议先看最新动态列表，再结合深度解析了解争议背景。</p>
+      </div>
+      <div class="faq-item">
+        <h4>这些爆料内容可信吗？应该怎么判断？</h4>
+        <p>专题中的内容来源多样，包括官方声明、当事人回应、匿名投稿和网友讨论，可信度并不统一。建议优先查看带有原始材料或官方回应的条目，对纯截图和匿名转述保持谨慎。页面会尽量标注线索类型，但不会替代事实核查。把爆料当作观察入口，而不是最终结论，是更稳妥的阅读方式。</p>
+      </div>
+      <div class="faq-item">
+        <h4>为什么同一场大赛会出现多条不同说法？</h4>
+        <p>大赛争议往往涉及多方立场：选手、评审、主办方、现场观众和线上粉丝看到的信息并不相同。加上传播过程中存在剪辑、转述和情绪化表达，出现多种说法是常见现象。建议按时间顺序梳理各方回应，注意区分“谁在说”“依据是什么”，再判断哪些信息可以互相印证。</p>
+      </div>
+      <div class="faq-item">
+        <h4>页面里的评论和爆料是真实的用户留言吗？</h4>
+        <p>评论区展示的是围绕赛事争议的典型讨论语气和观点类型，用于呈现社区氛围和舆论关注点，不代表对具体事件的实名指控。阅读评论时，可以关注其中反复出现的疑问和争议焦点，这些往往是理解事件脉络的线索，但同样需要结合正式信息源判断。</p>
+      </div>
+      <div class="faq-item">
+        <h4>如果我是参赛选手，应该怎么看待这些爆料？</h4>
+        <p>建议把专题当作舆论观察工具，而不是裁判依据。重点关注与你所在赛事相关的评分机制讨论、申诉流程和官方回应节点，避免被匿名传闻影响判断。如果涉及自身权益，优先通过赛事官方渠道提交材料和申诉，同时保留完整证据链。公开回应时注意措辞，避免情绪化表达引发二次争议。</p>
+      </div>
+      <div class="faq-item">
+        <h4>专题会持续更新吗？怎么跟进后续？</h4>
+        <p>页面围绕近期赛事争议做持续整理，最新动态列表会反映事件的关键节点。你可以收藏本页，定期查看“最新爆料动态”和“相关资讯”区域。对于热度较高的事件，深度解析部分也会补充背景说明。需要提醒的是，部分事件的官方结论可能需要较长时间才能落地，跟进时注意区分“新进展”和“旧传闻翻炒”。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 用户评论 ===== -->
+<section id="user-comments">
+  <div class="container">
+    <div class="sec-head">
+      <h2>用户评论与讨论</h2>
+      <p>近30天围绕爆料内容的真实讨论语气摘选</p>
+    </div>
+    <div class="comment-wrap">
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">吃瓜</div><span class="nick">瓜田观察员</span><span class="comment-time">11-06</span></div>
+        <p>创意大赛那个评分表的事，我觉得重点不是谁对谁错，而是赛前说明和实际执行差太多，选手肯定不服。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">路</div><span class="nick">路过看两眼</span><span class="comment-time">11-05</span></div>
+        <p>新秀选拔的聊天截图看了，总觉得缺上下文。先不站队，等官方把完整记录放出来再说。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">电</div><span class="nick">电竞老观众</span><span class="comment-time">11-06</span></div>
+        <p>设备故障重赛这个处理其实能理解，但裁判组说明来得太晚了，中间那几个小时舆论已经跑偏了。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">才</div><span class="nick">才艺区常驻</span><span class="comment-time">11-06</span></div>
+        <p>选手愿意公开完整履历这点还行，但之前自我介绍里那句表述确实容易让人误会，希望后续能说清楚。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">高</div><span class="nick">高校联赛围观</span><span class="comment-time">11-05</span></div>
+        <p>赛后冲突视频只有几秒，传播的时候配文太夸张了。双方联合声明算及时，至少没让粉丝继续对线。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">短</div><span class="nick">短视频参赛者</span><span class="comment-time">11-04</span></div>
+        <p>流量分配这个问题不是一天两天了，运营方给算法说明文档算进步，但具体参数还是没公开，观望。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">模</div><span class="nick">模特赛关注组</span><span class="comment-time">11-05</span></div>
+        <p>异常票数处理结果出来了，至少做了无效票处理。不过凌晨曲线那个事，技术解释还是有点笼统。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">音</div><span class="nick">听歌不站队</span><span class="comment-time">11-05</span></div>
+        <p>导师点评那个反转挺典型的，剪辑确实会改变语境。完整版听完感觉和热搜上说的完全不是一回事。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">复</div><span class="nick">复核申请围观</span><span class="comment-time">11-04</span></div>
+        <p>多组联名提交复核这个动作本身说明问题不小，就看主办方最后怎么给结论了，别又是不了了之。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">冷</div><span class="nick">冷静吃瓜派</span><span class="comment-time">11-03</span></div>
+        <p>这个专题整理得还行，至少把时间线捋清楚了。外面很多帖子只有情绪没有信息，看得累。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">统</div><span class="nick">统计爱好者</span><span class="comment-time">11-02</span></div>
+        <p>建议后面把各赛事的争议类型做个对比表，评审类、设备类、票数类分开看，规律会清楚很多。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">新</div><span class="nick">新来的瓜友</span><span class="comment-time">11-01</span></div>
+        <p>刚关注这个专题，热门推荐里那几条都挺有信息量的，比刷短视频评论区靠谱一点。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">老</div><span class="nick">老赛事人</span><span class="comment-time">10-30</span></div>
+        <p>爆料看多了会发现，很多争议到最后都落回规则不透明。赛前把标准写清楚，能省掉一半口水战。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">路</div><span class="nick">路过的评审</span><span class="comment-time">10-29</span></div>
+        <p>不是所有争议都有黑幕，有些就是审美差异。不过选手有疑问应该给正式渠道反馈，联名复核是对的。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">追</div><span class="nick">追更型用户</span><span class="comment-time">10-28</span></div>
+        <p>希望最新动态能保持更新频率，昨天那两条回应我是在这里先看到的，比社交平台推送还快一点。</p>
+      </div>
+      <div class="comment">
+        <div class="comment-head"><div class="avatar">中</div><span class="nick">中立观察站</span><span class="comment-time">10-27</span></div>
+        <p>评论区比想象中理性，至少没有上来就人身攻击。爆料归爆料，还是得看证据说话。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 相关资讯 ===== -->
+<section id="related-news">
+  <div class="container">
+    <div class="sec-head">
+      <h2>相关资讯</h2>
+      <p>赛事爆料、争议追踪与舆论观察的延伸阅读</p>
+    </div>
+    <div class="news-list">
+      <article class="news-card">
+        <span class="news-date">2026-11-07</span>
+        <h4>评审机制透明度再成大赛争议焦点</h4>
+        <p>从评分权重到评审构成，多场赛事的争议都指向同一问题：赛前规则说明与实际执行之间的落差如何弥补。</p>
+      </article>
+      <article class="news-card">
+        <span class="news-date">2026-11-06</span>
+        <h4>赛事方回应节奏影响舆论走向</h4>
+        <p>多起事件显示，官方回应的时效与信息完整度，往往比回应措辞更能决定讨论是否继续升温。</p>
+      </article>
+      <article class="news-card">
+        <span class="news-date">2026-11-05</span>
+        <h4>网络投票异常数据如何核查</h4>
+        <p>票数曲线、设备指纹与投票间隔是常见核查维度，赛事方公示处理结果时若能附带方法说明，争议会少很多。</p>
+      </article>
+      <article class="news-card">
+        <span class="news-date">2026-11-04</span>
+        <h4>剪辑语境与点评争议的传播链条</h4>
+        <p>片段化传播容易放大冲突感，完整录音或长视频释出后舆论反转的案例并不少见，阅读爆料时需留意信源完整度。</p>
+      </article>
+      <article class="news-card">
+        <span class="news-date">2026-11-03</span>
+        <h4>高校联赛社群讨论的边界</h4>
+        <p>年轻观众参与度高、传播速度快，赛后言论容易溢出赛场。联合声明与领队引导是目前较常见的降温方式。</p>
+      </article>
+      <article class="news-card">
+        <span class="news-date">2026-11-02</span>
+        <h4>爆料专题如何做信源分层</h4>
+        <p>把官方通报、原始材料、匿名投稿和二手转述分开标注，能帮助读者更快判断信息可信度，也减少误传扩散。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 页脚 ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="logo">
+          <span class="logo-mark">爆</span>
+          <span>每日大赛爆料黑料</span>
+        </a>
+        <p>聚合每日大赛爆料、赛事争议与内幕线索，提供热门推荐、最新动态、深度解析与用户讨论，帮助读者快速建立事件认知框架。</p>
+      </div>
+      <div class="footer-col">
+        <h5>内容导航</h5>
+        <a href="/#hero-banner">首页</a>
+        <a href="/#hot-content">热门推荐</a>
+        <a href="/#latest-update">最新更新</a>
+        <a href="/#deep-analysis">深度解析</a>
+        <a href="/#category-entry">分类入口</a>
+      </div>
+      <div class="footer-col">
+        <h5>互动与参考</h5>
+        <a href="/#faq-section">常见问题</a>
+        <a href="/#user-comments">用户评论</a>
+        <a href="/#related-news">相关资讯</a>
+        <a href="/#intro-section">专题介绍</a>
+      </div>
+      <div class="footer-col">
+        <h5>友情链接</h5>
+        <a href="#">赛事观察站（占位）</a>
+        <a href="#">内容社区导航（占位）</a>
+        <a href="#">舆论追踪索引（占位）</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 每日大赛爆料黑料 · 内容专题页 <span>仅供信息参考</span></div>
+      <div>免责声明：页面内容包含传闻与网友讨论，不代表事实认定，请结合官方信息理性判断。</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+        </html>
